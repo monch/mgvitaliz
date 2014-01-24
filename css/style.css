@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color:#FFF;
+	font-family:Monaco,Consolas,"Arial",'Lucida Console';
+	font-size:16px;
+	text-shadow:rgba(0,0,0,0.01) 0 0 0;
+}
+#wrapper{
+	width:960px;
+	margin:0 auto;
+}
+#content{
+	width:960px;
+	margin:5px;
+	float:left;
+}
+/************************************************/
+
+.contact_form{
+	width:460px;
+	padding:15px;
+	margin:0 auto;
+	border:3px solid #DFDFDF;
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff', endColorstr='#cbd4e5');
+}
+.form_title,
+.form_sub_title{
+	font-size:20px;
+	
+	font-family:Tahoma,Verdana,"Arial",sans-serif;
+	font-size:20px;
+	font-weight:bold;
+	text-align: center;
+	margin-bottom: 15px;
+}
+.form_sub_title{
+	font-weight:normal;
+	padding:6px 0 15px 0;
+}
+.contact_form p{
+	width: 300px;
+	clear: left;
+	margin: 0;
+	padding: 5px 0 8px 0;
+	padding-left: 155px; /*width of left column containing the label elements*/
+	border-top: 1px solid gray;
+	height: 1%;
+}
+.contact_form label{
+	font-weight: bold;
+	float: left;
+	margin-left: -155px; /*width of left column*/
+	width: 150px; /*width of labels. Should be smaller than left column (155px) to create some right margin*/
+}
+
+.business_table{
+	width:450px;
+	padding:15px;
+	margin:0 auto;
+	border:3px solid #DFDFDF;
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff', endColorstr='#cbd4e5');
+}
+input{
+	padding:3px;
+	color:#333333;
+	border:1px solid #96A6C5;
+	margin-top:2px;
+	width:180px;
+	font-size:11px;
+}
+.submitButton{
+	width:auto;
+	margin:10px 0 0 2px;
+	padding:5px 10px 5px 5px;
+	color:white;
+	background-color:#121213;
+	outline:none;
+	border:1px solid #DFE0DF;
+	font-weight:bold;
+	font-size: 15px;
+}
+.submitButton:active{
+	background-color:#006600;
+	padding:4px 3px 2px 5px;
+}
+.error{
+	color:#F00;
+	font-size: 8pt;
+}
+#footer{
+	color:#fff;
+	padding-top:20px;
+	text-align:center;
+	background: #454546;		
+	height: 20px;
+	clear:both;
+}
